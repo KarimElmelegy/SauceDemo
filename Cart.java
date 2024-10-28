@@ -30,7 +30,7 @@ public class Cart {
         submit.click();
     }
 
-    @Test(priority = 2)
+    @Test(priority = 1)
     public void AddToCart() throws InterruptedException {
         // Wait for the products page to load
         Thread.sleep(2000);
